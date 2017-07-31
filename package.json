@@ -1,0 +1,18 @@
+{
+  "name": "yyyeah",
+  "version": "1.0.0",
+  "description": "yasumi yasumi yeah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t babelify ./src/app.js -o ./dist/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "watchify": "^3.9.0"
+  }
+}
